@@ -1,0 +1,120 @@
+@font-face{
+     font-family: beautifulMarry;
+    src: url("Andina.otf");
+
+}
+body{
+background: linear-gradient(white, gray);
+
+}
+#header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.title{
+   font-family: beautifulMarry;
+    font-size: 50px;
+    text-shadow: 5px 5px gray;
+    font-weight: bolder;
+    margin: 50px;
+    
+}
+.gifts{
+    width: 400px;
+    height: 400px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+
+}
+.gifts:hover{
+    width: 400px;
+    height: 400px;
+    background-image: url("images/happy.gif");
+    background-size: cover;
+
+}         
+
+#gif2:hover{
+       width: 400px;
+    height: 400px;
+    background-image: url("images/gip.webp");
+    background-size: cover;
+    
+}
+
+#gif3:hover{
+       width: 400px;
+    height: 400px;
+    background-image: url("images/amazing.gif");
+    background-size: cover;
+    
+}
+
+#gif4:hover{
+       width: 400px;
+    height: 400px;                                       
+    background-image: url("images/soulmate.gif");
+    background-size: cover;
+    
+}
+
+
+#gif5{
+   width: 600px;
+    height: 400px;
+    margin: 0px auto 30px auto;   
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    
+}
+#gif5:hover{
+    width: 600px;
+    height: 400px;     
+    margin: 0px auto 30px auto;                 
+    background-image: url("images/best.gif");
+    background-size: cover;
+    
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+
+    
+}
+
+
+
+
+.gift-section{
+   max-width: 400px;
+}
+
+#gift-section-best{
+   max-width: 600px;
+}
+.gift-title{
+    
+}
+.gift-hint{
+    
+}
+.img-container{
+
+    
+}
+
+
+
+
+.Picture{
+    width: 200px;
+    height: 200px;
+    border: 16px solid #C70039;
+    border-radius: 50%;
+    background: linear-gradient(white,gray);
+    margin: 0 40PX;
+}
